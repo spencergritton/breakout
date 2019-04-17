@@ -1,0 +1,36 @@
+.Gameboard {
+  width: 400px;
+  height: 700px;
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.Ball {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.Brick {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  background-color: greenyellow;
+}
+
+.Paddle {
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  background-color: blue;
+  position: absolute;
+  left: 200;
+  top: 650;
+}
